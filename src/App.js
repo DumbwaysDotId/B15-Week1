@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Increment from './increment';
 
 class App extends Component {
   render(){
@@ -9,7 +8,6 @@ class App extends Component {
       //Layouting
       <div className="App">
         <Header title="This is Lola Zeita"/>
-        <Increment />
         <Content caps= "+18" />
       </div>
     );
